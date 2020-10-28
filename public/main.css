@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    padding-top: -30px;
+    
     
 }
 
@@ -27,7 +27,7 @@ nav.menu ul li {
 
 nav.menu ul li a {
     display: block;
-    padding: 0 20px;
+    padding: 0 50px;
     line-height: 44px;
     font-size: 1.4em;
     text-decoration: none;
@@ -38,6 +38,7 @@ nav.menu ul li a {
 nav.menu ul li a:hover  {
     background-color: white;
     color: #4d5791;
+    
 }
 
 
@@ -46,10 +47,11 @@ div.hero {
     height: 350px;
     background-color: #b4c6f0;
     /*background-image: url('bg.png');*/
-    background-size: 400px;
+    background-size: 00px;
     background-repeat: no-repeat;
     background-position: center bottom;
     padding-top: 40px;
+    
 }
 
 img{width: 360px;
@@ -75,12 +77,13 @@ div.hero h2 {
 }
 
 article {
-    padding: 20px;
-    width: 100%;
+
+padding-left: 70px;
+   
 }
 
 .page-area {
-    max-width: 768px;
+    max-width: 900px;
     display: inline-block;
     margin-top: 0.5em ;
    
@@ -150,7 +153,7 @@ footer {
 
   body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 1500px;
+    min-width: 1000px;
     height: 500px;
     position: relative;
     font-size: 12px;
@@ -182,3 +185,5 @@ footer {
    
 
 }
+
+
